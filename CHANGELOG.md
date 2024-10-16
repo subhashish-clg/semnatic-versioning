@@ -1,3 +1,10 @@
+# [1.1.0-dev-release.2](https://github.com/subhashish-clg/semnatic-versioning/compare/v1.1.0-dev-release.1...v1.1.0-dev-release.2) (2024-10-16)
+
+
+### Features
+
+* Added feature two ([d18f9ea](https://github.com/subhashish-clg/semnatic-versioning/commit/d18f9ea5b25b3c2b9ac93747e3fdfe28f4ef0473))
+
 # [1.1.0-dev-release.1](https://github.com/subhashish-clg/semnatic-versioning/compare/v1.0.0...v1.1.0-dev-release.1) (2024-10-16)
 
 
