@@ -14,7 +14,10 @@ export default {
     "@semantic-release/release-notes-generator",
     {
       path: "@semantic-release/changelog",
-      changelogFile: "CHANGELOG.md",
+      changelogFile:
+        process.env.BRANCH_NAME === "main"
+          ? "CHANGELOG.md"
+          : "CHANGELOG.beta.md",
     },
     {
       path: "@semantic-release/npm",
@@ -22,8 +25,13 @@ export default {
     },
     {
       path: "@semantic-release/git",
-      assets: ["CHANGELOG.md", "package.json"],
+      assets: [
+        process.env.BRANCH_NAME === "main"
+          ? "CHANGELOG.md"
+          : "CHANGELOG.beta.md",
+        "package.json",
+      ],
     },
-    "@semantic-release/github",
+    // "@semantic-release/github",
   ],
 };
