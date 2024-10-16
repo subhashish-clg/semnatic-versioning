@@ -1,4 +1,8 @@
 {
+  "name": "semantic-versioning",
+  "version": "0.0.1",
+  "private": true,
+  "license": "UNLICENSED",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
