@@ -1,6 +1,6 @@
 {
   "name": "semantic-versioning",
-  "version": "1.0.0",
+  "version": "1.1.0-dev-release.1",
   "private": true,
   "license": "UNLICENSED",
   "devDependencies": {
